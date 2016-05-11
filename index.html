@@ -1,32 +1,42 @@
-<html lang="en">
+<!doctype html>
+<html lang="en" >
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Free Web tutorials">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript">
-<meta name="author" content="Hege Refsnes">
 <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0' user-scalable='no'>
-<title>Title of the page</title>
-<link rel="stylesheet" type="text/css" href="styles/index.css"
-	media="screen" />
-<link href='../reset.css' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link rel='stylesheet' href='style.css'>
+<title>Random Quote Machine</title>
 </head>
-<body>
-   <header>
-      <h1>FreeCode Camp Zipline</h1>
-      <h2>Local Weather app</h2>
-   </header>
-   <main>
-     <span name='temp'></span><span name='degree'></span>
-      <button>Fahrenheit</button>
-      <article name='details'>
-         <div name='location'></div>
-         <div name='conditions'></div>
-         <div name='wind'></div>
-      </article>
-   </main>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src='../lp.js'></script>
+<md-content ng-app='myApp' ng-controller='MainController' ng-cloak ng-view layout-padding layout='row' layout-align='center center' flex-gt-sm='70' flex-offset-gt-sm='15'>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<!-- Angular Material Library -->
+<script src="angular-material.min.js"></script>
 <script src='script.js'></script>
+   <!--<header>-->
+   <!--   <div layout='column' flex>-->
+   <!--       <div id='links' layout-align="start start" flex>-->
+   <!--          <div layout='row'>-->
+   <!--             go to codepen project <a href='http://codepen.io/cblupodev/pen/YXLday' target='_blank'> [codepen.io]</a>-->
+   <!--          </div>-->
+   <!--          <div layout='row'>-->
+   <!--             go to freecodeamp assignment <a href='https://www.freecodecamp.com/challenges/show-the-local-weather' target='_blank'> [freecodeamp.com]</a>-->
+   <!--          </div>-->
+   <!--       </div>-->
+   <!--   </div>-->
+   <!--   <h2>Free Code Camp Weather app</h2>-->
+   <!--</header>-->
+   <!--<main>-->
+     <!--<span>{{temp}}</span><span>{{degree}}</span>-->
+      <md-button ng-click='switchUnit();'>Fahrenheit</md-button>
+   <!--   <article>-->
+   <!--      <div>{{location}}</div>-->
+   <!--      <div>{{conditions}}</div>-->
+   <!--      <div>{{wind}}</div>-->
+   <!--      todo fill in with icon-->
+   <!--      <div id='icon'></div>-->
+   <!--   </article>-->
+   <!--</main>-->
 </body>
 </html>
