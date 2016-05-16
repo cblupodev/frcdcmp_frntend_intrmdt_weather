@@ -7,8 +7,8 @@
    <link rel='stylesheet' href='style.css'>
 </head>
 
-<body>
-   <md-content class='back-temper' ng-class='background' ng-app='myApp' ng-controller='MainController' ng-cloak ng-view>
+<body ng-class='background' ng-app='myApp' ng-controller='MainController' ng-cloak ng-view>
+   <md-content>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
@@ -35,8 +35,6 @@
             <div>{{location}}</div>
             <div>{{conditions}}</div>
             <div>{{wind}}</div>
-            <!--todo fill in with icon-->
-            <div id='icon'></div>
          </article>
       </main>
    </md-content>

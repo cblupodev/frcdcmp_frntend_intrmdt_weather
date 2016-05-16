@@ -1,17 +1,14 @@
-/*header {*/
-/*    width:100%;*/
-/*}*/
+body {
+    height: 100%;
+    font-size: 1.815rem;
+}
 
 #links {
-    font-size: .7em;
+    font-size: .7rem;
 }
 
 h2 {
     text-align: center;
-}
-
-body {
-    height: 100%;
 }
 
 .back-cold {
@@ -32,6 +29,11 @@ body {
   background-clip: border-box;
   -webkit-background-size: auto auto;
   background-size: auto auto;
+
+  -webkit-animation: show 2s ease-in; /* Safari 4+ */
+  -moz-animation:    show 2s ease-in; /* Fx 5+ */
+  -o-animation:      show 2s ease-in; /* Opera 12+ */
+  animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
 }
 
 .back-temperate {
@@ -53,6 +55,11 @@ body {
   background-clip: border-box;
   -webkit-background-size: auto auto;
   background-size: auto auto;
+
+  -webkit-animation: show 2s ease-in; /* Safari 4+ */
+  -moz-animation:    show 2s ease-in; /* Fx 5+ */
+  -o-animation:      show 2s ease-in; /* Opera 12+ */
+  animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
 }
 
 .back-hot {
@@ -74,4 +81,26 @@ body {
   background-clip: border-box;
   -webkit-background-size: auto auto;
   background-size: auto auto;
+
+  -webkit-animation: show 2s ease-in; /* Safari 4+ */
+  -moz-animation:    show 2s ease-in; /* Fx 5+ */
+  -o-animation:      show 2s ease-in; /* Opera 12+ */
+  animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes show {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes show {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes show {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes show {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
