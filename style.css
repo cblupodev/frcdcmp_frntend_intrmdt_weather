@@ -1,0 +1,77 @@
+/*header {*/
+/*    width:100%;*/
+/*}*/
+
+#links {
+    font-size: .7em;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    height: 100%;
+}
+
+.back-cold {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  height: 100%;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,1) 0, rgba(141,51,244,1) 52%, rgba(97,0,255,0.91) 100%);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(141,51,244,1) 52%, rgba(97,0,255,0.91) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(141,51,244,1) 52%, rgba(97,0,255,0.91) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
+
+.back-temperate {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 100%;
+  border: none;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,1) 0, rgba(50,242,184,1) 52%, rgba(0,255,0,0.81) 100%);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(50,242,184,1) 52%, rgba(0,255,0,0.81) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(50,242,184,1) 52%, rgba(0,255,0,0.81) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
+
+.back-hot {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 100%;
+  border: none;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,1) 0, rgba(239,223,50,1) 52%, rgba(255,0,0,0.81) 100%);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(239,223,50,1) 52%, rgba(255,0,0,0.81) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(239,223,50,1) 52%, rgba(255,0,0,0.81) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
