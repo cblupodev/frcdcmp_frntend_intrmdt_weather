@@ -11,6 +11,7 @@ h2 {
     text-align: center;
 }
 
+/*taken from https://css-tricks.com/snippets/css/keyframe-animation-syntax/*/
 .back-cold {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -36,6 +37,7 @@ h2 {
   animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
 }
 
+/*taken from https://css-tricks.com/snippets/css/keyframe-animation-syntax/*/
 .back-temperate {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -62,6 +64,7 @@ h2 {
   animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
 }
 
+/*taken from https://css-tricks.com/snippets/css/keyframe-animation-syntax/*/
 .back-hot {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -88,6 +91,7 @@ h2 {
   animation:         show 2s ease-in; /* IE 10+, Fx 29+ */
 }
 
+/*taken from https://css-tricks.com/snippets/css/keyframe-animation-syntax/*/
 @-webkit-keyframes show {
   0%   { opacity: 0; }
   100% { opacity: 1; }
